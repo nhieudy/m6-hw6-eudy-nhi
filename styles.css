@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  background-image: url("Assignment 6 Starter Files/assets/pattern.webp");
+  background-repeat: repeat;
+  min-height: 100vh;
+
+}
+.profile-pic {
+  float: left;
+  padding: 10px;
+  width: 100px;
+}
+header {
+  border-bottom: 1px solid #023047;
+  margin-bottom: 30px;
+}
+h1 {
+  color: #023047;
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+nav {
+  display: inline-block;
+  width: 70%;
+  text-align: right;
+  
+}
+nav a {
+  color: #457b9d;
+  margin-left: 30px;
+  text-decoration: none;
+}
+.about,
+.portfolio {
+  border-right: 1px solid #457b9d;
+  padding-right: 30px;
+}
+h2{
+  color: #023047;
+  border-bottom: 1px solid #023047;
+  margin-bottom: 25px;
+  text-align: left;
+}
+h3{
+color: #023047;
+  border-bottom: 1px solid #023047;
+  margin: 10px 25px;
+  text-align: center;
+}
+.flex-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+main {
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+}
+main p {
+  color: #457b9d;
+  font-family: Arial, Helvetica, sans-serif;
+  margin:20px 0;
+  line-height: 20px;
+  margin-right: auto;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.container-main-content {
+  width: 40%;
+  height: 75%;
+  margin: 0 40px;
+
+}
+.container-aside{
+    width: 15%;
+    height: 60%;
+    margin: 0 20px;
+    
+}
+aside{
+    width: 90%;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+   
+}
+aside a img{
+   width: 50px;
+   display:inline;
+   margin-left: 5px;
+}
+
+footer {
+  border-top: 2px solid #195764;
+  background-color: #b5dff3;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p{
+    color: #023047;
+}
